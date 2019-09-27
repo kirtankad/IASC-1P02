@@ -12,28 +12,10 @@ body
   font-style:italic;
 }
 
-.redPara{
-  color:red;
-}
-
 p{
   font-family:"Arial",Helvetica Neue,Helvetica,sans-serif;
 }
 
 p{
   font-size:20px;
-}
-
-body{
-	color:red;
-	font-size:20px;
-}
-
-.giant{
-	font-size:50px;
-}
-
-#jollyGreen{
-	color:green;
-	text-decoration:underline;
 }
