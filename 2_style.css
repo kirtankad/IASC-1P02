@@ -1,0 +1,18 @@
+body
+  {background-color:red
+  }
+
+#firstHeader{
+  color:black;
+  font-weight:bold;
+}
+
+.firstList{
+  color:green;
+  font-style:italic;
+}
+
+.inlineList{
+  font-size:30px;
+  display:inline;
+}
