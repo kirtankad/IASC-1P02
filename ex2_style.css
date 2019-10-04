@@ -1,0 +1,36 @@
+body
+  {background-color: white;
+  }
+
+.parent {
+  position: relative;
+  height: 200px;
+  border: purple 2px dotted;
+}
+
+.absolute {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 20px;
+  font-size: 12px;
+}
+
+p.para{
+  color: green;
+  font-size: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#other{
+  color: orange;
+  font-size: 30px;
+}
+
+p.small{
+  color: purple;
+  font-size: 5px;
+  text-align: right;
+  font-weight: bold;
+}

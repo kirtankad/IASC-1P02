@@ -1,0 +1,30 @@
+body
+  {background-color:white;
+  }
+
+p{
+  font-family:"Times new roman";
+  font-size: 12px;
+}
+
+#box{
+  margin: auto;
+  width: 95%;
+  border-style: dotted;
+}
+
+div{
+  background-color: green;
+}
+
+p.para{
+  color: red;
+}
+
+p.otherPara{
+  color: grey;
+}
+
+p.bottom{
+  color: purple;
+}

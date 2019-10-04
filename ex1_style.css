@@ -1,0 +1,42 @@
+body
+  {background-color:blue
+  }
+
+.redText{
+  color:red;
+}
+
+p{
+  font-family:"Arial",Helvetica Neue,Helvetica,sans-serif;
+}
+
+p{
+  font-size:12px;
+}
+
+#box{
+  margin: 100px 13% 100px 13%;
+  width: 75%;
+  border-style: solid;
+}
+
+div p.para{
+  margin: 22px 20px 22px 20px;
+  line-height: 25px;
+	border: green 1px dashed;
+  color: red;
+}
+
+p.dashed {
+border: orange 1px dashed;
+margin-right: 775px;
+margin-bottom: auto;
+}
+
+  .smaller-image {
+    width: 150px;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
