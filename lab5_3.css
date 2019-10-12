@@ -1,0 +1,32 @@
+body{
+  background-color: green;
+}
+
+.boxes{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0 auto;
+  justify-content: space-around;
+}
+
+.box1{
+  background-color: blue;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+}
+
+.box2{
+  background-color: red;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+}
+
+.box3{
+  background-color: yellow;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}

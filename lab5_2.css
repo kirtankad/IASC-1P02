@@ -1,0 +1,46 @@
+body{
+  background-color: green;
+}
+
+#wrapper{
+  width: 750px;
+  margin: 0 auto;
+}
+
+#header{
+  background-color: red;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+}
+
+#left{
+  background-color: lightpink;
+  padding: 5px;
+  float: left;
+  font-weight: bold;
+  width: 200px;
+}
+
+#right{
+  background-color: orange;
+  font-weight: bold;
+  float: right;
+  padding: 5px;
+  width: 530px;
+}
+
+.content{
+  background-color: blue;
+  font-weight: bold;
+  padding: 5px;
+  height: 500px;
+}
+
+#footer{
+  background-color: yellow;
+  height: 50px;
+  clear: both;
+  padding: 5px;
+  font-weight: bold;
+}
