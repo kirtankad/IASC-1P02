@@ -1,0 +1,51 @@
+body{
+  background-color:lightpink;
+  font-family: Courier;
+  }
+
+.krebs {
+  width: 350px;
+  height: auto;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  }
+
+.protein{
+  width: 300px;
+  height: auto;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+h3,p.blueText{
+  color:blue;
+}
+
+p{
+  font-family:"Arial",Helvetica Neue,Helvetica,sans-serif;
+  font-size: 13px;
+}
+
+div ~ p{
+  background-color: #FBF1F1;
+}
+
+p.bigText{
+  font-size: 17px;
+}
+
+p.fontCase{
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+#box{
+  padding: 5px;
+  top: 50px;
+  right: 200px;
+  position: absolute;
+  border-style: solid;
+}
