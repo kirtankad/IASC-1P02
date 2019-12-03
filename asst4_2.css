@@ -1,0 +1,128 @@
+
+#wrapper{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+* { cursor: url('http://www.rw-designer.com/cursor-view/54629-48.png'), default;}
+
+/* reference: w3schools */
+.topnav{
+    overflow: hidden;
+    background-color: firebrick;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: darkslategrey;
+}
+
+.topnav a.active{
+    background-color: dodgerblue;
+    color: white;
+}
+/* end reference */
+
+#header{
+ width: 1200px;
+ height: 150px;
+ background-color: black;
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ color: white;
+}
+
+.box1{
+  font-weight: bold;
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+}
+
+#leftbox{
+  width: 498px;
+  height: 900px;
+  background-color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: black;
+  float: left;
+  border: 1px dashed black;
+}
+
+#centerbox{
+    width: 200px;
+    height: 900px;
+    float: left;
+    background-color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: black;
+}
+
+/* reference: W3SCHOOLS */
+.glow {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#rightbox{
+   width: 498px;
+   height: 900px;
+   float: left;
+   background-color: white;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   color: black;
+   border: 1px dashed black;
+}
+
+#header1{
+   text-align: center;
+   padding-top: 50px;
+}
+
+#header2{
+    text-align: center;
+ }
+
+#header3{
+    text-align: center;
+}
+
+.bioheader{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+}

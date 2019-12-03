@@ -1,0 +1,167 @@
+
+#wrapper{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+* { cursor: url('http://www.rw-designer.com/cursor-view/54629-48.png'), default;}
+
+#para{
+  font-size: 15px;
+  color: black;
+}
+
+/* reference: w3schools */
+.topnav{
+    overflow: hidden;
+    background-color: firebrick;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: darkslategrey;
+}
+
+.topnav a.active{
+    background-color: dodgerblue;
+    color: white;
+}
+/* end reference */
+
+#header{
+ width: 1200px;
+ height: 150px;
+ background-color: black;
+ font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ color: white;
+}
+
+.box1{
+  font-weight: bold;
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+}
+
+/* reference: w3schools */
+.zoom {
+  padding: 5px;
+  background-color: grey;
+  transition: transform .2s;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+#leftbox{
+  width: 598px;
+  height: 900px;
+  background-color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: black;
+  float: left;
+  border: 1px dashed black;
+}
+
+#rightbox{
+   width: 598px;
+   height: 900px;
+   float: left;
+   background-color: white;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+   color: black;
+   border: 1px dashed black;
+}
+
+.box2{
+  background-color: grey;
+  width: 150px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 90%;
+  padding-left: 25px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 7px;
+}
+
+#header1{
+   text-align: center;
+   padding-top: 50px;
+}
+
+#header2{
+    text-align: center;
+ }
+
+#header3{
+    text-align: center;
+}
+
+.bioheader{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
